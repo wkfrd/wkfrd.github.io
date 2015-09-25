@@ -1,0 +1,51 @@
+html {
+    font-family: 'Amatic SC', cursive;
+    color: white;
+    background-color: black;
+    background:
+    linear-gradient(
+      rgba(0, 0, 0, 0.6), 
+      rgba(0, 0, 0, 0.6)
+    ), url(images/back2.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+h1 {
+    text-align:center;
+    font-size: 70px;
+    margin:0;
+}
+
+h2 {
+    text-align:center;
+    font-size:45px;
+    margin:0;
+}
+
+h3 {
+    display:inline-table;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: right;
+    font-size: 35px;
+    width:17.5%;
+    margin-top: 14.5%;
+}
+
+p {
+    visibility: hidden;
+    /*position: absolute;
+    overflow: hidden;
+    clip: rect(0 0 0 0);
+    height: 1px; width: 1px;
+    margin: -1px; padding: 0;
+    border: 0;*/
+}
+
+h3.maker:hover + p{
+    visibility: visible;
+    font-size: 40px;
+}
